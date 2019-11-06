@@ -33,11 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="225dp"
         android:layout_marginBottom="19dp"
         android:text="@string/prompt_email"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
-        app:layout_constraintEnd_toStartOf="@+id/imageView11"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -45,11 +43,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
-        android:layout_marginEnd="213dp"
         android:layout_marginBottom="92dp"
         android:text="alamat"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
-        app:layout_constraintEnd_toStartOf="@+id/imageView11"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -57,11 +53,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
-        android:layout_marginEnd="134dp"
         android:layout_marginBottom="19dp"
         android:text="NIDN - NAMA MHS"
         app:layout_constraintBottom_toTopOf="@+id/textView17"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -69,11 +63,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginEnd="209dp"
         android:layout_marginBottom="19dp"
         android:text="@string/prompt_email"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -81,32 +73,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginEnd="200dp"
         android:layout_marginBottom="360dp"
         android:text="alamat"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="119dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="89dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="93dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/SMILE" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="130dp"
-        android:layout_height="94dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="360dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/SMILE" />
 </androidx.constraintlayout.widget.ConstraintLayout>

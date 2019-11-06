@@ -10,12 +10,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class CrudKRS extends AppCompatActivity {
+public class CrudKrsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_insert_update_data_atkul);
+        setContentView(R.layout.activity_crud_krs);
 
         setTitle("ADMIN-KELOLA KRS");
 
@@ -23,19 +23,19 @@ public class CrudKRS extends AppCompatActivity {
         simpanButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(CrudKRS.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(CrudKrsActivity.this);
                 builder.setMessage("Apakah ingin menyimpan data?").setNegativeButton("BATAL", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int which) {
-                        Toast.makeText(CrudKRS.this,"Tidak jadi menyimpan", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(CrudKrsActivity.this,"Tidak jadi menyimpan", Toast.LENGTH_SHORT).show();
                     }
                 })
                         .setPositiveButton("YA", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int which) {
-                                Intent intent = new Intent(CrudKRS.this, HomeScreenAdmin.class);
+                                Intent intent = new Intent(CrudKrsActivity.this, HomeScreenAdmin.class);
                                 startActivity(intent);
-                                Toast.makeText(CrudKRS.this, "Berhasil Menyimpan", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(CrudKrsActivity.this, "Berhasil Menyimpan", Toast.LENGTH_SHORT).show();
                             }
                         });
                 AlertDialog dialog = builder.create();
@@ -44,4 +44,3 @@ public class CrudKRS extends AppCompatActivity {
         });
     }
 }
-
