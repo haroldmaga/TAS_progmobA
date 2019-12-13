@@ -15,6 +15,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import Model.DataDosen;
+
 public class DataDosenAdapter extends RecyclerView.Adapter<DataDosenAdapter.ViewHolder> {
     ArrayList <DataDosen> dataDosenArrayList;
 

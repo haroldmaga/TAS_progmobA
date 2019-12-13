@@ -1,4 +1,4 @@
-package Model;
+package com.example.tts_progmob.data.model;
 
 public class DataKelas {
     public String kodeMatkulKls;

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CrudKrsActivity"></activity>
+        <activity android:name=".EditMahasiswa"></activity>
+        <activity android:name=".EditDosen" />
+        <activity android:name=".LihatDosen" />
+        <activity android:name=".DataDosen" />
+        <activity android:name=".CrudKrsActivity" />
         <activity android:name=".DataDiriMahasiswa" />
         <activity android:name=".LihatDataKelas" />
         <activity android:name=".LihatDataKrs" />
@@ -29,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeScreenMhs" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
